@@ -62,7 +62,7 @@ The whole workshop evolves around four published articles and their datasets:
 -   Example 2: [https://data.ub.uni-muenchen.de/288/](https://data.ub.uni-muenchen.de/288/)
 -   Example 3: [https://osf.io/6p9bf/](https://osf.io/6p9bf/)
 -   Example 4: [https://zenodo.org/records/10650333](https://zenodo.org/records/10650333)
--   Example 5: [https://zenodo.org/records/2564050](https://doi.org/10.5281/zenodo.2563874) <- Example from MPI DKTS
+-   Example 5: [https://zenodo.org/records/2564050](https://doi.org/10.5281/zenodo.2563874) (code), [https://zenodo.org/records/2564050](https://zenodo.org/records/2564050) (result data) <- Example from MPI DKTS
 
 It is your job to investigate one of these datasets with a special focus on publication, documentation and data organization aspects. We will conclude with an introduction to data management plans, a helpful planning tool to comply with the FAIR principles. In this section, we will also introduce important aspects of data storage.
 
