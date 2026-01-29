@@ -14,6 +14,12 @@ Your structure and your naming conventions should be intuitive. However, we reco
 
 In the following sections, you'll find some input on the organizational aspects you should consider. Note that not all of them may apply to each dataset. Besides the tasks, we'll provide some general hints and rules. Some rules only apply to some use cases, and sometimes, there are good arguments for not sticking to every rule. However, in such cases you should know (and potentially document) why you decide differently.
 
+::: Callout-caution
+
+The elements in organization are likely still of relevance, when working with code, but for the (re)usability it might make sense to include a reference on who to write good/clean code. 
+
+We had a lecture on clean code at the 2024 Summer School: [https://osf.io/sbncz/files/akef3](https://osf.io/sbncz/files/akef3)
+It mixes a little bit elements of documentation and organization. 
 
 ## Folder structure
 
@@ -263,7 +269,7 @@ Following notes relate to the content of `OSF Storage`.
 
 ::: {.callout-important collapse="true" title="Solution: Example 4"}
 - Yes, names are meaningful and intuitive.
-- The subfolders of `Data/Group` and `Data/Solo` have names like `01_09_2022__10_13_33`, which seem to refer to a date and maybe time of day.
+- The subfolders of `Data/Group` and `Data/Solo` have names like `01_09_2022__10_13_33`, which seem to refer to a date and maye time of day.
 - Subfolders are not in a chronological order, because the date is given in a disadvantageous format (e.g. `01_09_2022`) - better would be `2022_09_01` or `2022-09-01`.
 - Yes: Folder name `Stan model code` contains spaces.
 - Length of the names: OK
@@ -277,6 +283,7 @@ Following notes relate to the content of `OSF Storage`.
 - No, spaces have been replaced by underscores and names use only ASCII characters.
 - Length of the names: OK, although `_fish_ext_` in the runme names seems unnecessary in this context.
 - Maybe shorten the runme names.
+- If folder name `01_09_2022__10_13_33` stands for timestamp 2022-09-01T10:13:33, then it could be renamed to `20220901T101333` or `2022-09-01_101333`.
 :::
 
 ::: {.callout-note icon="true" title="Excursion: Versioning"}
