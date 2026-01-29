@@ -152,6 +152,12 @@ On dataset-level, there is only one zip file, no folders. However, within the zi
 - Explicitly described in README file.
 :::
 
+::: {.callout-important collapse="true" title="Solution: Example 5"}
+In the deposit, there are two zip files, no folders allowed on Zenodo. However, within the zip files, there are folder structures:
+
+- Ths is a code deposit and there are folders for the actual scripts concerning this research and separate folders for external tools required in the execution 
+- the global README file is rather brief, but there are more in the subfolders explaining additional details. Still putting the dependencies into a "dependencies" folder could make this visible more intuitively. It is also not clear from the structure and README if the dependent software packages are fetched automatically or need to be manually added. 
+:::
 
 ## File and folder names
 
@@ -257,11 +263,20 @@ Following notes relate to the content of `OSF Storage`.
 
 ::: {.callout-important collapse="true" title="Solution: Example 4"}
 - Yes, names are meaningful and intuitive.
-- The subfolders of `Data/Group` and `Data/Solo` have names like `01_09_2022__10_13_33`, which seem to refer to a date and maye time of day.
+- The subfolders of `Data/Group` and `Data/Solo` have names like `01_09_2022__10_13_33`, which seem to refer to a date and maybe time of day.
 - Subfolders are not in a chronological order, because the date is given in a disadvantageous format (e.g. `01_09_2022`) - better would be `2022_09_01` or `2022-09-01`.
 - Yes: Folder name `Stan model code` contains spaces.
 - Length of the names: OK
-- If folder name `01_09_2022__10_13_33` stands for timestamp 2022-09-01T10:13:33, then it could be renamed to `20220901T101333` or `2022-09-01_101333`.
+- If folder name `01_09_2022__10_13_33` stands for timestamp 2022-09-01T10:13:33, then it could be renamed to `20220901T101333` or `2022-09-01_101333` to better follow general ISO standards.
+:::
+
+::: {.callout-important collapse="true" title="Solution: Example 5"}
+- Yes, names are meaningful and intuitive.
+- The subfolders are named after the dependencies, the main work folder is `_scripts` and files in there are called `runme_*`, one for each experiment.
+- Subfolders do not really need an order, but the most important one `_scripts` is listed first, enforced by the underscore.
+- No, spaces have been replaced by underscores and names use only ASCII characters.
+- Length of the names: OK, although `_fish_ext_` in the runme names seems unnecessary in this context.
+- Maybe shorten the runme names.
 :::
 
 ::: {.callout-note icon="true" title="Excursion: Versioning"}
@@ -379,6 +394,17 @@ Following notes relate to the content of "OSF Storage".
 - Binary files like [HDF](https://de.wikipedia.org/wiki/Hierarchical_Data_Format) could be used (cf note above related to performance).
 :::
 
+::: {.callout-important collapse="true" title="Solution: Example 5"}
+- Results are strored as `.mat` files. A community standard. 
+- Yes, suitable for long-term archiving.
+- Fairly easy, readable with Python, Julia, Gnu Octave.
+- Data files contain matrix data and `.mat` provides a naming scheme.
+- `.mat` is optimized for performance although the actual performance may depend on the environment used. Still, the binary content already sets them well ahead of alternative ASCII formats in file size, reading time and accuracy of the stored data.
+- The general format is easy to understand by humans.
+- While originally being a proprietary format, readers (also Open Source) for all programming languages exist.
+- Binary files like [HDF](https://de.wikipedia.org/wiki/Hierarchical_Data_Format) could be used, which could be equivalent to using the latest version of the `.mat` specification.
+:::
+
 ::: {.callout-note collapse="true" icon="true" title="Excursion: Premium format ASCII"}
 A gold standard for storing digital information is an ASCII file. In an ASCII file, each byte represents one visible character (except for the white spaces and control characters like tab stop and linebreaks).
 
@@ -450,6 +476,15 @@ Following notes relate to the content of `OSF Storage`.
 - Time: Time column with seconds(?) since start time?
 - Tables: Semicolon as column separator, also semicolon after last column.
 - The README file says "Variable names should be quite descriptive, but please get in touch in case anything is unclear", but not all columns are so clear to understand.
+:::
+
+::: {.callout-important collapse="true" title="Solution: Example 5"}
+- All codes are ASCII files, data is binary.
+- precision is that of the original data, since it is stored binary
+- Special numbers could only appear following the IEE754 standard. (again due to binary storage)
+- Time: stored as floating point numbers representing seconds (the standard in both Matlab and Python) 
+- Tables: all standard in the used working environments.
+- as everything is binary, the code is needed.
 :::
 
 ::: {.callout-note collapse="true" icon="false" title="Example"}

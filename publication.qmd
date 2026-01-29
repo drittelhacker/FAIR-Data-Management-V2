@@ -91,6 +91,16 @@ When submitting to a journal that uses a double-blind peer review process, it's 
 3.  As separate section before "Code availability" and the Reference section.
 :::
 
+::: {.callout-important collapse="true"}
+## Solution: Example 5 (\~ 5 minutes)
+
+1.  Yes, there is a meta data field saying that the data set "is supplement to" the Journal article.
+
+2.  Yes, it does. It even specifies various details and points to additional intermediate result data.
+
+3.  As the first subsection called "Data and code availability" at the beginning of the "Numerical experiments" section right after the description of the hardware environment  used.
+:::
+
 ## License
 
 If we in the end would like to share our research data and enable reuse for other researchers, we should define conditions under which the data can be reused. At this point licenses come into play. Licenses are standard contracts that regulate usage rights for published work. As already mentioned, thereby enabling other people to reuse the published work. If no license is provided with a dataset, it is not clear to others under which conditions they can reuse it and they might (against your good intentions) rather refrain from reusing it at all.
@@ -191,6 +201,14 @@ As stated above, the CC0 label or the CC BY license should be your preferred cho
 2.  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). However the git repo is under a Apache License Version 2.0, so depending on which version you use, the conditions are different.
 :::
 
+::: {.callout-important collapse="true"}
+## Solution: Example 5 (\~ 2 minutes)
+
+1.  Yes.
+
+2.  That depends on what is reused. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for the data set and [GPL v2](https://www.gnu.de/documents/gpl-2.0.de.html) for the code.
+:::
+
 ## Persistent identifier
 
 Imagine a scenario in which a repository is no longer maintained, so that all datasets published in that repository are no longer available at the repository's URLs (a quite real scenario, as you can see in [this article](https://doi.org/10.48550/arXiv.2310.06712)). To avoid data loss, the original repository migrated its datasets to another repository, where it however gets a new URL. Consequently, if the corresponding article linked to its dataset via the URL (e.g., [https://osf.io/gn47c/](https://osf.io/gn47c/)), it can no longer be found. What now? In such cases, persistent identifiers (PIDs) are extremely helpful if not essential. The ones we consider crucial are listed below.
@@ -263,6 +281,16 @@ Last but not least, the Research Organization Registry ([ROR](https://ror.org/))
 
 :::
 
+::: {.callout-important collapse="true"}
+## Solution: Example 5 (\~ 5 minutes)
+
+1.  Yes, via DOI https://doi.org/10.5281/zenodo.2563874.
+
+2.  The first author as listed corresponding author in the article.
+
+3.  Yes, and he also connected his ORCID profile.
+
+:::
 
 ## Repository
 
@@ -345,6 +373,19 @@ When searching re3data, most of these criteria are displayed beside the reposito
 :::
 
 ::: callout-note
+
+::: {.callout-important collapse="true"}
+## Solution: Example 5 (\~ 5 minutes)
+
+1.  Zenodo.
+
+2.  Yes.
+
+3.  Click on the repository and go through the details: It assigns a DOI, you can publish under various licenses, it is certified etc.
+:::
+
+::: callout-note
+
 ## Excursion: FAIR assessment tools 
 
 With the emerging requisite of research data being FAIR, a number of tools have been developed that automatically check how FAIR published data are. These tools have been evaluated and a nice overview has been published (c.p. [https://zenodo.org/records/7701941](https://zenodo.org/records/7701941)). We invite you to play around with these tools, especially the automatic tools [F-uji Tool](https://www.f-uji.net/) and [FAIR enough](https://fair-enough.semanticscience.org/). E.g., you may input your dataset to different tools and look at the output, check whether the output confirms your impression of the dataset's reusability, or find a dataset that has been published in different repositories and see how that influences a tool's output (e.g., [https://doi.org/10.5281/zenodo.7298798](https://doi.org/10.5281/zenodo.7298798) vs. [https://doi.org/10.17617/3.LLWRWR](https://doi.org/10.17617/3.LLWRWR).)
