@@ -37,6 +37,24 @@ author:
       - name: Max Planck Digital Library
         city: Munich
         url: https://www.mpdl.mpg.de/en/ 
+
+  - name: Jens Saak 
+    id: dw
+    orcid: 0000-0001-5567-9637
+    email: saak@mpi-magdeburg.mpg.de
+    affiliation: 
+      - name: Max Planck Institute for Dynamics of Complex Technical Systems
+        city: Magdeburg
+        url: https://www.mpi-magdeburg.mpg.de/2316/en
+
+  - name: Jasmin Bauer
+    id: dw
+    orcid: 0009-0004-2014-7293
+    email: jbauer@mpi-magdeburg.mpg.de
+    affiliation: 
+      - name: Max Planck Institute for Dynamics of Complex Technical Systems
+        city: Magdeburg
+        url: https://www.mpi-magdeburg.mpg.de/2316/en
 ---
 
 This material was created for the LMU & MPG Open Science Summer School 2024. During the Summer School the material was accompanied by slides and the tasks were done in groups. Independent of this event, the materials can be used to get an insight into Research Data Management in the context of Open Science and therefore with the goal of a FAIR publication. 
