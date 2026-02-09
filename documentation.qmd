@@ -231,13 +231,13 @@ What should a README file contain? - Ideally, all the answers to the questions i
 
 The README file is most important after someone has downloaded your dataset for possible reuse. Imagine that their data management is sloppy and they lose or forget the link between the downloaded files and your dataset in the repository or the paper you published. The README file included with your dataset ensures that your work can still be understood and that you can still be credited.
 
-::: callout-caution
 ## README for software
 
-As already mentioned this README structure and template does not work well for software/code especially with the additional component of the README being usually the "front page" and contact point for users on platforms like GitHub. Is there another template we can provide and should the task be adapted to fit the additonal template? 
+As already mentioned this README structure and template does not work well for software/code especially with the additional component of the README being usually the "front page" and contact point for users on platforms like GitHub. 
+There are many resources on the topic and README templates for software available under [https://github.com/matiassingers/awesome-readme?tab=readme-ov-file](https://github.com/matiassingers/awesome-readme?tab=readme-ov-file) 
 
+For this workshop, we will follow a simple template structure from [Make a README](https://www.makeareadme.com/).
 
-:::
 
 ::: {.callout-note collapse="true"}
 ## README Template
@@ -305,6 +305,50 @@ People involved with sample collection, processing, analysis and/or submission:
 :::
 
 
+::: {.callout-note collapse="true"}
+## README Template Software
+
+# Foobar
+
+Foobar is a Python library for dealing with word pluralization.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install foobar
+```
+
+## Usage
+
+```python
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+:::
+
+
 ::: callout-tip
 # Task 2.2: (\~10 min)
 
@@ -365,13 +409,23 @@ You might also suggest to your department/research group/institute/research comm
 ::: {.callout-important collapse="true"}
 
 ## Solution: Example 5
+Notes on standard README:
 
 -   4 sections can be filled based on the Example dataset README alone.
 -   Not all fields are applicable for code datasets/scripts
 -   ?? open fields can be filled based on the information collected in task 2.1.
 -   Find the filled out README template for example 5 [here](/Example5_READMETemplate.md)
+
+Notes on software README:
+
+-   The code zip files for python and Matlab code have their respective README files. Would you combine them to one README or also stay with two?
+-   README.md for the python code is close to the template structure. 
+-   When reading the README files did you feel you could start working with the code easily? Would you do something differently?
+-   Find the filled out README template for example 5 [here](/Example5_READMETemplateSoftware.md)
 -   More about code related documentation can be found under [Good Scientific Practice for Research Software Engineering](https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/doc/)
 :::
+
+
 
 ## Codebook
 
