@@ -206,8 +206,8 @@ All metadata questions have been answered here and different sources have been b
     -   Python; MATLAB
     -   From related publication: Python; MATLAB
 -   What research is this dataset connected to?\
-    -   Not indicated on dataset level.
-    -   <https://doi.org/10.1515/auto-2019-0027> (Not provided on dataset level)
+    -   Indicated on dataset level only by similarity with the paper title.
+    -   <https://doi.org/10.1515/auto-2019-0027> (Available in the dataset's metadata on Zenodo)
 -   Can this dataset be reused?\
     -   The dataset is under a GNU General Public License v2.0 only, which would allow re-use under the given conditions.
 :::
