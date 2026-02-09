@@ -269,7 +269,7 @@ Following notes relate to the content of `OSF Storage`.
 
 ::: {.callout-important collapse="true" title="Solution: Example 4"}
 - Yes, names are meaningful and intuitive.
-- The subfolders of `Data/Group` and `Data/Solo` have names like `01_09_2022__10_13_33`, which seem to refer to a date and maye time of day.
+- The subfolders of `Data/Group` and `Data/Solo` have names like `01_09_2022__10_13_33`, which seem to refer to a date and maybe time of day.
 - Subfolders are not in a chronological order, because the date is given in a disadvantageous format (e.g. `01_09_2022`) - better would be `2022_09_01` or `2022-09-01`.
 - Yes: Folder name `Stan model code` contains spaces.
 - Length of the names: OK
