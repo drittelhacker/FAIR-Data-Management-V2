@@ -305,43 +305,29 @@ People involved with sample collection, processing, analysis and/or submission:
 ::: {.callout-note collapse="true"}
 ## README Template Software
 
-# Foobar
+\# Name of the project
 
-Foobar is a Python library for dealing with word pluralization.
+General description of the project and its purpose.
 
-## Installation
+\## Installation / Getting Started
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Instructions on how to install the software and get it running. This can include prerequisites, dependencies, and step-by-step installation instructions.
 
-```bash
-pip install foobar
-```
+\## Usage
 
-## Usage
+Instructions on how to use the software, including examples of common use cases and command-line options. This section can also include information on how to run tests, if applicable. For a paper code repository, you can also include instructions on how to reproduce the results of the paper.
 
-```python
-import foobar
+\## Contributing
 
-# returns 'words'
-foobar.pluralize('word')
+If applicable add this section with guidelines for contributing to the project, including how to report issues, submit pull requests, and any coding standards or best practices that should be followed. 
 
-# returns 'geese'
-foobar.pluralize('goose')
+\## License
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+License information for the software. This should include the name of the license and a link to the full license text. If your project includes code from other sources, you should also include information about the licenses for those dependencies and ideally link their full license texts, as well.
 
-## Contributing
+\## Citation
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+Instructions on how to cite the software in academic publications. This can include a recommended citation format and any relevant identifiers (e.g., DOI, GitHub repository URL).
 
 :::
 
