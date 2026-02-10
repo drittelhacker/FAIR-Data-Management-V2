@@ -27,11 +27,15 @@ In seldom cases publishing data can also be limited due to concerns of national 
 
 :::
 
-::: callout-caution
+::: callout-warning
 ## Legal aspects specific to software 
 
-Maybe we can link to the GWP for RSE "Legal Aspects" here and summarize one or two important takeaways? [https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/legal/](https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/legal/)
+Research software and code have different legal aspects that are discussed on the [Good Scientific Practice for Research Software Engineering Website](https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/legal/).
 
+Two important take aways for researchers working within the MPG are:
+ 
+- Software generally belongs to the Max Planck Society e.V.
+- If copyright agreements (especially licenses) are made, the Managing Director or a person with the authority to represent them must be involved
 :::
 
 ## Data Availability Statement
@@ -48,12 +52,12 @@ When submitting to a journal that uses a double-blind peer review process, it's 
 
 [^2]: Source [https://www.cambridge.org/core/services/authors/open-data/data-availability-statements](https://www.cambridge.org/core/services/authors/open-data/data-availability-statements).
 
-::: callout-caution 
+<!-- ::: callout-caution 
 ## Code Availability Statement 
 
 Is there anything to consider for a code/software availability statement that differs from a "Data Availability Statement"? 
 Is it better to combine the two aspects or separate them? 
-:::
+::: -->
 
 ::: callout-tip
 ## Task 1.1:
@@ -125,17 +129,8 @@ If we in the end would like to share our research data and enable reuse for othe
 It is important to keep in mind that you can only define usage conditions by assigning licenses for work that "is yours", i.e., that you have the copyright for. This is not always the case for data. Data that result from a significant creative process (as is often the case in the humanities or qualitative social sciences) are more likely covered by copyright while data that result from rather simple measurement processes (as is often the case for natural or quantitative social sciences) are likely not covered. Also, note the distinction between the **instrument** used to create the data and the data themselves in this regard. E.g., if the data you are about to publish result from a comprehensive questionnaire that you have developed, **the questionnaire** ought to be protected by copyright whereas the data are most likely not. As mentioned in the beginning, you can only assign licenses to work that you hold the copyright for. If this is not the case or you are unsure, it is safest to go with CC0 as this is strictly speaking not a license, but rather a waiver of copyright. You explicitly release your work into the public domain.
 :::
 
-::: callout-caution
 
-## License and copyright for software
-
-As already mentioned we would likely need an excursion on copyright vs. copyleft, since the example license is GNU. Maybe with a link to this resource: [https://opensource.com/resources/what-is-copyleft](https://opensource.com/resources/what-is-copyleft)?
-
-To point out the issue of license compatibility: [https://dwheeler.com/essays/floss-license-slide.html](https://dwheeler.com/essays/floss-license-slide.html)
-Deciding what license to pick: [https://choosealicense.com/](https://choosealicense.com/)
-
-::: 
-There are several licenses out there, as e.g. [Creative Commons](https://creativecommons.org/), [MIT](https://opensource.org/license/mit) (software), [Apache](https://www.apache.org/licenses/) (software), [Open Data Commons](https://opendatacommons.org/) and it ultimately is your responsibility to pick one. If you have no advise and you do not want to read through all licenses out there, the Creative Commons licences are usually a save choice (see box below). As rule of thumb, you may want to remember to go with the least restrictive license to maximize your data's reuse potential. A recent article gives the following recommendations[^3]:
+There are several licenses out there, as e.g. [Creative Commons](https://creativecommons.org/), [MIT](https://opensource.org/license/mit) (software), [Apache](https://www.apache.org/licenses/) (software), [GNU](https://www.gnu.org/licenses/gpl-3.0.html) (for software), [Open Data Commons](https://opendatacommons.org/) and it ultimately is your responsibility to pick one. If you have no advise and you do not want to read through all licenses out there, the Creative Commons licences are usually a save choice (see box below). As rule of thumb, you may want to remember to go with the least restrictive license to maximize your data's reuse potential. A recent article gives the following recommendations[^3]:
 
 [^3]: Brettschneider, P., Axtmann, A., Böker, E., & von Suchodoletz, D. (2021): Offene Lizenzen für Forschungsdaten: Rechtliche Bewertung und Praxistauglichkeit verbreiteter Lizenzmodelle, in: O-Bib. Das Offene Bibliotheksjournal 8(3), pp. 1–22, [https://doi.org/10.5282/o-bib/5749](https://doi.org/10.5282/o-bib/5749). \[only in German\]
 
@@ -185,6 +180,15 @@ In addition, there are two further labels, to dedicate the published work to the
 
 As stated above, the CC0 label or the CC BY license should be your preferred choice. In (the unlikely) case that you need a more restrictive license, there is a nice graphical illustration to help you: [choo-choo-choose your license](https://www.joeran.de/wp-content/dox/sites/10/cc-licencse-choo-choo-train.png).
 :::
+
+::: callout-note
+## Excursion: License and Copyright for software
+
+Here is a helpful website for understanding copyright vs. copyleft and GNU: [https://opensource.com/resources/what-is-copyleft](https://opensource.com/resources/what-is-copyleft). In general the GNU represents a license for software where everyone is permitted to copy and distribute, while not allowed to change.
+
+Further resources on license compatibility [https://dwheeler.com/essays/floss-license-slide.html](https://dwheeler.com/essays/floss-license-slide.html) and deciding on a license [https://choosealicense.com/](https://choosealicense.com/). 
+:::
+
 
 ::: callout-tip
 ## Task 1.2:
@@ -315,12 +319,12 @@ Last but not least, the Research Organization Registry ([ROR](https://ror.org/))
 3.  Yes, and he also connected his ORCID profile.
 :::
 
-::: callout-caution
+<!-- ::: callout-caution
 ## Making research citable 
 
 I think the PID section works quite well for the software section. I just noticed the "PIDs and Citation" seciton in the GWP for RSE Document: [https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/cite/](https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/cite/) 
 It might make sense to refer to that for a deeper insight. We could also do an excursion on .cff in code repositories, since it is something easily adoptable and would fit this chapter overall. 
-:::
+::: -->
 
 ## Repository
 
@@ -351,13 +355,15 @@ When searching re3data, most of these criteria are displayed beside the reposito
 
 ![Criteria icons in re3data.org](images/re3data-criteria.png){fig-align="left" width=35%}
 
-::: callout-caution
+<!-- ::: callout-caution
 ## Software repositories
 
 There is a section on this in the GWP for RSE as well: [https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/repos/](https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/repos/)
 
 It would be nice to give a short overview of how to best use (or not use) GitHub as well as a reference to Software Heritage. 
-:::
+::: -->
+
+For software repositories, again, others aspects are involved and are discussed here: [https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/repos/](https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/repos/)
 
 ::: callout-tip
 ## Task 1.4:

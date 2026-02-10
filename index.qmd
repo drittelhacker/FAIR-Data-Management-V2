@@ -21,12 +21,7 @@ Please note that FAIR and open are not synonymous. Not all FAIR data is necessar
 [^1]: based on: [https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/faire-daten/](https://forschungsdaten.info/themen/veroeffentlichen-und-archivieren/faire-daten/)
 [^2]: based on: [https://snd.se/en/manage-data/prepare-and-share/FAIR-data-principles](https://snd.se/en/manage-data/prepare-and-share/FAIR-data-principles)
 
-::: callout-caution
-## Addition: FAIR for research software and code
-
-Is there something generic that can be said about FAIR for research software/ instead of data? Probably that it was not originally designed for research software/code, but is often applied to it as well. 
-Linking to the FAIR4RS article might be useful: [https://www.nature.com/articles/s41597-022-01710-x](https://www.nature.com/articles/s41597-022-01710-x) 
-:::
+A note on **FAIR for research software and code**: The research community is becoming more aware of software and code as object for FAIR principles. The concept of **FAIR4RS** (FAIR for Research Software) is discussed in this article [Introducing the FAIR Principles for research software](https://doi.org/10.1038/s41597-022-01710-x).
 
 To learn more about the importance of good data management, watch this humorous video (by the [NYU Health Sciences Library, 2013](https://hslguides.med.nyu.edu/data_management)) on the common challenges researchers face with data sharing and management. It highlights the importance of good data management practices for ensuring data can be easily found, understood, and used by others.
 

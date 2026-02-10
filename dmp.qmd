@@ -31,11 +31,8 @@ Please note that this list is incomplete, and the questions may vary depending o
 
 [^9]: Questions based on: [https://www.fdm.uni-hamburg.de/fdm/datenmanagementplan.html](https://www.fdm.uni-hamburg.de/fdm/datenmanagementplan.html)
 
-::: callout-caution 
-## Software Management Plans 
-Here we could point to the article by our former colleague Yves Grossmann: [https://doi.org/10.5334/dsj-2024-043](https://doi.org/10.5334/dsj-2024-043)
 
-:::
+For software and code instead of DMPs you will have **SMP - Software Management Plans**. A helpful article on this can be found here: [https://doi.org/10.5334/dsj-2024-043](https://doi.org/10.5334/dsj-2024-043).
 
 
 ::: {.callout-note}
@@ -245,13 +242,8 @@ In addition to RDMO, a variety of DMP tools exist. The following table[^1] provi
 
 :::
 
-::: callout-caution
-### SMP catalog in RDMO
-
 There is a SMP catalog in the MPDL RDMO instance that can also be integrated in other RDMO instances. The MPDL is currently also developing additional plugins for easier SMP usage in RDMO under the DFG funded [MAUS project](https://doi.org/10.5334/dsj-2024-043).
 
-We could either state in the task that they should select that catalog, when setting up their example or just point them to it during the meeting. 
-:::
 
 ::: callout-tip
 # Task 4: (~20 min)

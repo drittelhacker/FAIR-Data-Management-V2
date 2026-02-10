@@ -36,19 +36,16 @@ Metadata can be found at several places:
 3.  **README file**: Even before you publish your dataset, you should keep track of your metadata. This will prevent you from losing track of it, and will help inform others. A good way to do this is to create a README file. We look at README files in the next section.
 :::
 
-::: callout-caution
+::: callout-note
 ## Dependencies, requirements, and virtual environments
 
-While the metadata section is roughly transferable to software/code I think an important point missing from the documentation aspect for software specifically are dependencies, requirements or whole virtual environments. Maybe they could be introduced here with links to more cohesive explanations.
+While the metadata section is roughly transferable to software/code an important point missing from the documentation aspect for software specifically are dependencies, requirements or whole virtual environments.
 
-Does it a require an introduction to the different levels of sophistication? That way the selection on what method to use can be connected to the level of sophistication of the code itself.  
+Helpful resources on documentation [https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/reprod/](https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/reprod/) and environments [https://book.the-turing-way.org/reproducible-research/renv/](https://book.the-turing-way.org/reproducible-research/renv/). 
 
-This section in the GWP for RSE document might be of interest: [https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/reprod/](https://gwp-rse-ff130b.pages.gwdg.de/en/faqs/reprod/), but I don't see it completely covering the topic. 
+Also this website on good practises could be of help: [S3 School 2026 Lectures](https://s3-school.github.io/s3-2026-lectures/2.1-coding-environment-good-practices/2.1.1-coding-environment-IDE/).
 
-Maybe this resource would be helpful? [https://book.the-turing-way.org/reproducible-research/renv/](https://book.the-turing-way.org/reproducible-research/renv/)
-
-Or maybe this resource: https://s3-school.github.io/s3-2026-lectures/2.1-coding-environment-good-practices/2.1.1-coding-environment-IDE/
-This one seems to be a bit more advanced than the turing way introduction. 
+This topic could be covering an entire workshop itself. Also it can span multiple skill levels that makes it difficult to cover all levels of coders within this workshop. Therefore we are limiting this excursion to point to those further resources. 
 ::: 
 
 ::: callout-tip
@@ -579,7 +576,7 @@ Discuss: Can you find supportive information to understand the provided data in 
 -   No overview in the MATLAB code structure
 -   Script usage is explained in the README-file.
 :::
-
+<!-- 
 ::: callout-caution 
 ## Software quality tools 
 Would it make sense to introduce linters or formatting tools here in this section? Since codebooks are kind of helping make the data structures more readable. Linters and formatting tools could help with readability of code without putting in a lot of effort on skill development. 
@@ -587,7 +584,7 @@ Would it make sense to introduce linters or formatting tools here in this sectio
 There is are slides on the topic from the S3 School: [https://vuillaut.github.io/lectures/quality_tools/1](https://vuillaut.github.io/lectures/quality_tools/1)
 
 Also if referring to software quality overall, this RSQkit might be a useful resource: [https://everse.software/RSQKit/](https://everse.software/RSQKit/)
-:::
+::: -->
 
 
 ## Further Resources:
