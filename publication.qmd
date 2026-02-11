@@ -130,7 +130,7 @@ It is important to keep in mind that you can only define usage conditions by ass
 :::
 
 
-There are several licenses out there, as e.g. [Creative Commons](https://creativecommons.org/) (data), [MIT](https://opensource.org/license/mit) (software), [Apache](https://www.apache.org/licenses/) (software), [GNU GPL](https://www.gnu.org/licenses/gpl-3.0.html) (software), [Open Data Commons](https://opendatacommons.org/) (data) and it ultimately is your responsibility (together with your PI) to pick one. If you have no advise and you do not want to read through all licenses out there, the Creative Commons licences are usually a save choice (see box below). However, there is also the legal department of the MP headquarters for receiving advice. As rule of thumb, you may want to remember to go with the least restrictive license to maximize your data's reuse potential. A recent article gives the following recommendations[^3]:
+There are several licenses out there, as e.g. [Creative Commons](https://creativecommons.org/) (data), [MIT](https://opensource.org/license/mit) (software), [Apache](https://www.apache.org/licenses/) (software), [GNU GPL](https://www.gnu.org/licenses/gpl-3.0.html) (software), [Open Data Commons](https://opendatacommons.org/) (data) and it ultimately is your responsibility (together with your PI) to pick one. If you have no advise and you do not want to read through all licenses out there, the Creative Commons licences are usually a save choice (see box below) for data. However, there is also the legal department of the MP headquarters for receiving advice. As rule of thumb, you may want to remember to go with the least restrictive license to maximize your data's reuse potential. A recent article gives the following recommendations[^3]:
 
 [^3]: Brettschneider, P., Axtmann, A., Böker, E., & von Suchodoletz, D. (2021): Offene Lizenzen für Forschungsdaten: Rechtliche Bewertung und Praxistauglichkeit verbreiteter Lizenzmodelle, in: O-Bib. Das Offene Bibliotheksjournal 8(3), pp. 1–22, [https://doi.org/10.5282/o-bib/5749](https://doi.org/10.5282/o-bib/5749). \[only in German\]
 
@@ -182,11 +182,21 @@ As stated above, the CC0 label or the CC BY license should be your preferred cho
 :::
 
 ::: callout-note
-## Excursion: License and Copyright for software
+## Excursion: Software licenses and Copyleft
 
-Here is a helpful website for understanding copyright vs. copyleft and GNU GPL: [https://opensource.com/resources/what-is-copyleft](https://opensource.com/resources/what-is-copyleft). In general the GNU GPL represents a license for software where everyone is permitted to copy and distribute, while not allowed to change.
+Navigating the jungle of software licenses is not an easy task. Several things are to be considered, e.g., whether you want to allow commercial use of your software, whether you want to allow modifications and derivative works, whether you want to impose the same license on derivative works (so-called "copyleft"), etc. Also, compatibility of licenses is an important aspect to consider when combining code from different sources. A good starting point is to distinguish between permissive licenses (e.g., MIT, Apache) and copyleft licenses (e.g., GNU GPL). Permissive licenses allow you to do almost anything with the code as long as you provide attribution, while copyleft licenses require that any derivative works also be distributed under the same license terms.
 
-Further resources on license compatibility [https://dwheeler.com/essays/floss-license-slide.html](https://dwheeler.com/essays/floss-license-slide.html), deciding on a license [https://choosealicense.com/](https://choosealicense.com/) and licenses summarized at-a-glance [https://www.tldrlegal.com/](https://www.tldrlegal.com/).
+As a rule of thumb, if you want to maximize the reuse potential of your software (and thus the likelyhood of citations), you should go with a permissive license. If you want to ensure that any derivative works also remain open, you might consider a copyleft license. However, be aware that copyleft licenses can limit the reuse of your software in certain contexts, especially if they are not compatible with other licenses.
+
+For an introduction on the interplay of licenses see, e.g., [https://dwheeler.com/essays/floss-license-slide.html](https://dwheeler.com/essays/floss-license-slide.html).
+
+To understan copyright vs. copyleft and GNU's GPL visit [https://opensource.com/resources/what-is-copyleft](https://opensource.com/resources/what-is-copyleft). 
+
+For some guidance in the selection process check [https://choosealicense.com/](https://choosealicense.com/) and to understand open source software licenses summarized in layman's terms take a look at [https://www.tldrlegal.com/](https://www.tldrlegal.com/).
+
+Another rule of thumb is to check which licenses are commonly used in your research field and go with one of those. This will make it easier for others to understand the conditions under which they can reuse your software and thus increase the likelihood of reuse. You should also try to stick with [established and widely used licenses](https://opensource.org/licenses?categories=popular-strong-community), as these are more likely to be recognized and understood by other researchers.
+
+If you get lost in the jungle of software licenses, the legal department of the MP headquarters is available for advice as well.
 :::
 
 

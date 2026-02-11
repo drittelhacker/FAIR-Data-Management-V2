@@ -6,7 +6,7 @@ Not provided
 
 ## Installation
 
-No installation required. Pleas follow the instructions in DEPENDENCIES.md
+No installation required. Please follow the instructions in DEPENDENCIES.md
 
 ## Usage
 
@@ -44,15 +44,10 @@ Without a transformation matrix the file contains the L2-Norm of the full system
 state. The file `input_SUB` contains the simulation input for the reduced order
 system.
 
-## Contributing
-
-Not provided
 
 ## License
 
 The code is provided under the GPLv3+. See LICENSE for further informations.
-
-
 
 ___
 ___
@@ -72,12 +67,12 @@ directory structures, though.
 
 ## Usage
 
-Not provided
-
-## Contributing
-
-Not provided
+Not provided. Should explain how to execute the `runme_*.m` from the `_scripts` folder.
 
 ## License
 
 The package is provided under the GPLv3+. See COPYING for details.
+
+## Citation
+
+Not provided. Should point to the Zenodo deposit's DOI.
